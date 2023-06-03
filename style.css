@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  form {
+    margin-top: 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="anio"]{
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  .blue-bg {
+    background-color: blue;
+  }
+
+  .pink-bg {
+    background-color: pink;
+  }
+
+  input[type="button"],
+  input[type="reset"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: lightgreen;
+      color: #fff;
+      cursor: pointer;
+  }
+
+  input[type="button"]:hover,
+  input[type="reset"]:hover {
+      background-color: green;
+  }
+
+    input[type="button"]:hover,
+    input[type="reset"]:hover {
+    background-color:green;
+}
